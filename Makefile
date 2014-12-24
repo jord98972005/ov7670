@@ -16,9 +16,7 @@ CFLAGS+=-Wl,-T,$(STMLIB)/stm32_flash.ld
 CFLAGS+=-I./
 
 # stm32f4_discovery lib
-CFLAGS+=-I$(STMLIB)/STM32F4xx_StdPeriph_Driver/inc
-CFLAGS+=-I$(STMLIB)/STM32F4xx
-CFLAGS+=-I$(STMLIB)/CMSIS
+CFLAGS+=-I$(STMLIB)/STM32F10x_StdPeriph_Driver/inc
 CFLAGS+=-I$(STMLIB)
 
 all: $(BIN_IMAGE)
@@ -29,17 +27,20 @@ $(BIN_IMAGE): $(EXECUTABLE)
 
 $(EXECUTABLE): \
 	src/main.c \
-	src/OV7670.c \
-	src/stm32f4xx_it.c \
-	src/OV7670config.c \
+	src/Sensor.c \
+	src/stm32f10x_it.c \
+	src/lcd.c \
+	src/sccb.c \
+    src/fifo.c\
+    src/delay.c \
 	inc/system_stm32f4xx.c \
 	inc/startup_stm32f4xx.S \
-	inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c \
-	inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c \
-	inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c \
-	inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c \
-	inc/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c \
-	inc/STM32F4xx_StdPeriph_Driver/src/misc.c
+	inc/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c \
+    inc/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c \
+    inc/STM32F10x_StdPeriph_Driver/src/stm32f10x_nvic.c \
+    inc/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c \
+    inc/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c \
+    inc/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c \
 	$(CC) $(CFLAGS) $^ -o $@  
 
 run : main.bin gdbscript

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>18</ColumnWidth0><ColumnWidth1>1309</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>723</ColumnWidth1><ColumnWidth2>193</ColumnWidth2><ColumnWidth3>48</ColumnWidth3><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>182</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow><InstrProfShow>0</InstrProfShow></Disassembly>
+    <Watch><Format><struct_types/><watch_formats/></Format></Watch><Statics><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>107</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Statics><Memory><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-7439-7487</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>FSMC-LCD</ExpandedNode><ExpandedNode>FSMC-LCD/User</ExpandedNode><ExpandedNode>FSMC-LCD/User/Sensor.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-17206-18417</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-19216-24963</Identity><TabName>Statics</TabName><Factory>Statics</Factory><Session><SelectedVars/><Column0>107</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3><ShowAllVars>1</ShowAllVars></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-14073-4778</Identity><TabName>Memory</TabName><Factory>Memory</Factory><Session><ZoneNumber>0</ZoneNumber><SelectionAnchor>536932383</SelectionAnchor><SelectionEnd>536932383</SelectionEnd><UnitsPerGroup>1</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>33558269</VScroll></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3><Wnd4><Tabs><Tab><Identity>TabID-10458-19029</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd4></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\source\lcd.c</Filename><XPos>0</XPos><YPos>25</YPos><SelStart>797</SelStart><SelEnd>825</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\include\stm32f10x_conf.h</Filename><XPos>0</XPos><YPos>108</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\include\delay.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>176</SelStart><SelEnd>176</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\include\lcd.h</Filename><XPos>0</XPos><YPos>126</YPos><SelStart>4202</SelStart><SelEnd>4202</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\source\main.c</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>1680</SelStart><SelEnd>1680</SelEnd></Tab><ActiveTab>4</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\source\stm32f10x_it.c</Filename><XPos>0</XPos><YPos>150</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\include\Sensor.h</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\include\Sensor_config.h</Filename><XPos>0</XPos><YPos>201</YPos><SelStart>3371</SelStart><SelEnd>3371</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-048f0fd8><key>debuggergui.enu1</key></Toolbar-048f0fd8><Toolbar-00b09b50><key>iaridepm.enu1</key></Toolbar-00b09b50></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>419</Bottom><Right>273</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>201318</sizeVertCX><sizeVertCY>608382</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>419</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>289017</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>608382</sizeVertCY></Rect></Wnd2></Sizes></Row0><Row1><Sizes><Wnd4><Rect><Top>-2</Top><Left>196</Left><Bottom>419</Bottom><Right>396</Right><x>196</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>289017</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>608382</sizeVertCY></Rect></Wnd4></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>30</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>0</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>0</sizeVertCX><sizeVertCY>0</sizeVertCY></Rect></Wnd1></Sizes></Row0><Row1><Sizes><Wnd3><Rect><Top>28</Top><Left>-2</Left><Bottom>228</Bottom><Right>1368</Right><x>-2</x><y>28</y><xscreen>1370</xscreen><yscreen>200</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>289017</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>289017</sizeVertCY></Rect></Wnd3></Sizes></Row1></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
